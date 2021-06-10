@@ -1,0 +1,33 @@
+.Header{
+    background-color: #606060;
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+    flex-wrap: wrap;
+    
+}
+
+body{
+    background-color: #808080;
+    border: solid;
+    margin: 0px;
+}
+
+p{
+    text-align: center;                                                                                                                  
+}
+
+.Header *{
+    border: solid;
+    margin: 20px;
+}
+
+.grid *{
+    padding: 10px;
+}
+
